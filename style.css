@@ -1,9 +1,11 @@
-body{
-    font-family: 'Roboto' sans-serif;
-    color: #2E2F42;
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-.logo{
-    font-family: 'Raleway' sans-serif;
+
+.logo {
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     font-weight: 700;
@@ -12,11 +14,11 @@ body{
     color: #4d5ae5;
 }
 
-.logo .accent{
+.logo .accent {
     color: #2e2f42;
 }
 
-.nav-list{
+.nav-list {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.2em;
@@ -24,12 +26,20 @@ body{
     color: #2E2F42;
 }
 
-.nav-list:hover,
-.nav-list:focus{
-    color: #404BBF;
+/* нові стилі для пунктів меню */
+.nav-link {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
 }
 
-.address{
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.address {
     font-style: normal;
     font-weight: 400;
     font-size: 16;
@@ -39,15 +49,15 @@ body{
 }
 
 .address:hover,
-.address:focus{
+.address:focus {
     color: #404BBF;
 }
 
-.hero{
+.hero {
     background-color: #2E2F42;
 }
 
-.hero-title{
+.hero-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -56,9 +66,10 @@ body{
     letter-spacing: 0.02em;
 }
 
-.hero-button{
+.hero-button {
     background-color: #4D5AE5;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
+    /* додано sans-serif */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -68,11 +79,11 @@ body{
 }
 
 .hero-button:hover,
-.hero-button:focus{
+.hero-button:focus {
     background-color: #404BBF;
 }
 
-.features h3{
+.features h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -80,7 +91,7 @@ body{
     color: #2E2F42;
 }
 
-.features p{
+.features p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -88,23 +99,28 @@ body{
     color: #434455;
 }
 
-.team{
+.team {
     background-color: #F4F4FD;
 }
 
-.team h2{
+.team h2 {
     font-weight: 700;
-    font-size: 36x;
+    font-size: 36px;
+    /* виправлено */
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    /* додано */
+    text-transform: capitalize;
+    /* додано */
     color: #2E2F42;
 }
 
-.team li{
+.team li {
     background-color: #FFFFFF;
 }
 
-.team h3{
+.team h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -112,15 +128,16 @@ body{
     color: #2E2F42;
 }
 
-.team p{
+.team p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+    /* виправлено */
     color: #434455;
 }
 
-.portfolio h2{
+.portfolio h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -128,7 +145,7 @@ body{
     color: #2E2F42;
 }
 
-.portfolio h3{
+.portfolio h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -136,7 +153,7 @@ body{
     color: #2E2F42;
 }
 
-.portfolio p{
+.portfolio p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -144,11 +161,11 @@ body{
     color: #434455;
 }
 
-.footer{
+.footer {
     background-color: #2E2F42;
 }
 
-.footer-logo{
+.footer-logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
@@ -157,7 +174,7 @@ body{
     color: #4D5AE5;
 }
 
-.footer-logo .accent{
+.footer-logo .accent {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
@@ -166,7 +183,7 @@ body{
     color: #F4F4FD;
 }
 
-.footer p{
+.footer p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
