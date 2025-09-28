@@ -175,34 +175,3 @@ body {
     color:#2e2f42;
 }
 
-/* Team section backgrounds */
-.mark-item,
-.tom-item,
-.camila-item,
-.daniel-item {
-    background-color: #ffffff;
-}
-
-/* Titles */
-.mark-title,
-.tom-title,
-.camila-title,
-.daniel-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-/* Texts */
-.mark-text,
-.tom-text,
-.camila-text,
-.daniel-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
